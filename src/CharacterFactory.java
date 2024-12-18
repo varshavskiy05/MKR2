@@ -1,5 +1,3 @@
-package game;
-
 public class CharacterFactory {
     public static Character createCharacter(String type, String name, int x, int y) {
         switch (type) {
